@@ -1,3 +1,5 @@
+# Credit: This script was developed by a student in CS61C Fall 2015 and adapted for use in this project
+
 import subprocess, sys
 def do():
     print subprocess.check_output('python2.7 assembler.py %s' % sys.argv[1], shell=True)
